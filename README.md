@@ -71,8 +71,8 @@ Contributions to the improvement and development of this project are very welcom
 
 ## Contact
 
-Name : Solehudin
-E-mail : sholehudin1906@gmail.com
+- Name : Solehudin
+- E-mail : sholehudin1906@gmail.com
 
 ## License
 
