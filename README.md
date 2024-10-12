@@ -69,6 +69,11 @@ This project was run using Google Colab. To run the code:
 
 Contributions to the improvement and development of this project are very welcome. Please create a pull request or open an issue for discussion.
 
+## Contact
+
+Name : Solehudin
+E-mail : sholehudin1906@gmail.com
+
 ## License
 
 [MIT License](https://opensource.org/licenses/MIT)
