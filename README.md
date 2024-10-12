@@ -38,11 +38,11 @@ Three regression models were used:
 
 Model evaluation results:
 
-| Model MSE | RMSE | MAE | R2 Score |
+| Model              | MSE     | RMSE    | MAE     | R2 Score |
 |--------------------|---------|---------|---------|----------|
-| Linear Regression | 21.5987 | 4.6474 | 3.9419 | 0.9477 |
-| Decision Tree | 25.4467 | 5.0445 | 3.7333 | 0.9384 |
-| Random Forest | 17.9537 | 4.2372 | 3.1667 | 0.9566 |
+| Linear Regression  | 21.5987 | 4.6474  | 3.9419  | 0.9477   |
+| Decision Tree      | 25.4467 | 5.0445  | 3.7333  | 0.9384   |
+| Random Forest      | 17.9537 | 4.2372  | 3.1667  | 0.9566   |
 
 The Random Forest model shows the best performance with the highest R2 Score (0.9566) and the lowest MSE (17.9537).
 
