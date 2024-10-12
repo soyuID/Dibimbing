@@ -1,63 +1,63 @@
-# Analisis Skor Siswa dan Prediksi Menggunakan Machine Learning
+# Student Score Analysis and Prediction Using Machine Learning
 
-Proyek ini menganalisis dataset skor siswa dan menggunakan teknik machine learning untuk memprediksi skor berdasarkan jam belajar.
+This project analyzes a dataset of student scores and uses machine learning techniques to predict scores based on study hours.
 
-## Deskripsi Dataset
+## Dataset Description
 
-Dataset berisi informasi tentang jam belajar siswa dan skor yang mereka peroleh. Terdiri dari dua kolom:
-- Hours: Jumlah jam belajar
-- Scores: Skor yang diperoleh
+The dataset contains information about students' study hours and the scores they earned. It consists of two columns:
+- Hours: Number of study hours
+- Scores: Scores obtained
 
-## Langkah-langkah Analisis
+## Analysis Steps
 
 1. Exploratory Data Analysis (EDA)
 2. Feature Engineering
-3. Pemodelan Machine Learning
-4. Evaluasi Model
+3. Machine Learning Modeling
+4. Model Evaluation
 
-## Hasil Analisis
+## Analysis Results
 
 ### Exploratory Data Analysis
 
-- Terdapat korelasi positif yang kuat antara jam belajar dan skor (korelasi: 0.9761)
-- Distribusi jam belajar cenderung miring ke kanan
-- Distribusi skor relatif normal
+- There is a strong positive correlation between study hours and scores (correlation: 0.9761)
+- The distribution of study hours is skewed to the right
+- The distribution of scores is relatively normal
 
 ### Feature Engineering
 
-- Tidak ditemukan data duplikat
-- Tidak ada nilai yang hilang (missing values)
-- Terdeteksi beberapa outlier potensial, namun jumlahnya tidak signifikan
+- No duplicate data found
+- There are no missing values
+- Some potential outliers are detected, but the number is not significant
 
-### Pemodelan dan Evaluasi
+### Modeling and Evaluation
 
-Tiga model regresi digunakan:
+Three regression models were used:
 1. Linear Regression
 2. Decision Tree Regressor
 3. Random Forest Regressor
 
-Hasil evaluasi model:
+Model evaluation results:
 
-| Model              | MSE     | RMSE    | MAE     | R2 Score |
+| Model MSE | RMSE | MAE | R2 Score |
 |--------------------|---------|---------|---------|----------|
-| Linear Regression  | 21.5987 | 4.6474  | 3.9419  | 0.9477   |
-| Decision Tree      | 25.4467 | 5.0445  | 3.7333  | 0.9384   |
-| Random Forest      | 17.9537 | 4.2372  | 3.1667  | 0.9566   |
+| Linear Regression | 21.5987 | 4.6474 | 3.9419 | 0.9477 |
+| Decision Tree | 25.4467 | 5.0445 | 3.7333 | 0.9384 |
+| Random Forest | 17.9537 | 4.2372 | 3.1667 | 0.9566 |
 
-Model Random Forest menunjukkan performa terbaik dengan R2 Score tertinggi (0.9566) dan MSE terendah (17.9537).
+The Random Forest model shows the best performance with the highest R2 Score (0.9566) and the lowest MSE (17.9537).
 
-## Kesimpulan
+## Conclusion
 
-Berdasarkan R2 Score, model Random Forest memiliki performa terbaik. Namun, pemilihan model akhir harus mempertimbangkan trade-off antara performa, kompleksitas, dan interpretabilitas sesuai dengan kebutuhan spesifik proyek.
+Based on R2 Score, the Random Forest model has the best performance. However, the final model selection should consider the trade-off between performance, complexity, and interpretability according to the specific needs of the project.
 
-## Cara Menjalankan Kode
+## How to Run the Code
 
-Proyek ini dijalankan menggunakan Google Colab. Untuk menjalankan kode:
-1. Buka file notebook di Google Colab
-2. Upload dataset 'student_scores.csv' ke environment Colab
-3. Jalankan sel kode secara berurutan
+This project was run using Google Colab. To run the code:
+1. Open the notebook file in Google Colab
+2. Upload the dataset 'student_scores.csv' to the Colab environment
+3. Run the code cells sequentially
 
-## Dependensi
+## Dependencies
 
 - pandas
 - numpy
@@ -65,10 +65,10 @@ Proyek ini dijalankan menggunakan Google Colab. Untuk menjalankan kode:
 - seaborn
 - scikit-learn
 
-## Kontribusi
+## Contributions
 
-Kontribusi untuk perbaikan dan pengembangan proyek ini sangat diterima. Silakan buat pull request atau buka issue untuk diskusi.
+Contributions to the improvement and development of this project are very welcome. Please create a pull request or open an issue for discussion.
 
-## Lisensi
+## License
 
 [MIT License](https://opensource.org/licenses/MIT)
